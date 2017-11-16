@@ -2,16 +2,12 @@
   font-family: 'Podkova', serif;
 }
 
-#image_4 {
-  clear: left;
-}
-
-section p {
-  position: relative;
+.small-box p {
+  /*display: inline-block;*/
+  position: absolute;
+  bottom: 0;
   font-family: 'Podkova', serif;
   color: #fff;
-  top: 190px;
-  right: 190px;
 }
 
 body {
@@ -27,8 +23,12 @@ hr {
 }
 
 img {
-  margin: 20px;
   width: 250px;
   height: 200px;
+}
+
+.small-box {
+  margin: 40px 50px;
   float: left;
+  position: relative;
 }
